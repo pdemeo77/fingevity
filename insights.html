@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Articoli e analisi su longevità, previdenza, e pianificazione finanziaria nel lungo termine per consulenti.">
+  <meta name="keywords" content="insights, articoli, longevità, previdenza, pianificazione finanziaria">
+  <meta name="author" content="Fingevity">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Insights - Fingevity">
+  <meta property="og:description" content="Articoli e analisi su longevità, previdenza, e pianificazione finanziaria nel lungo termine.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://fingevity.it/insights">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  
+  <title>Insights - Fingevity</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#1e3a5f',
+            secondary: '#f39c12',
+            accent: '#e74c3c'
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="min-h-screen flex flex-col font-sans">
+  <!-- Header placeholder -->
+  <div id="header"></div>
+  
+  <!-- Main content -->
+  <main class="flex-1">
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-primary to-primary/90 text-white py-20">
+      <div class="container mx-auto px-4">
+        <div class="max-w-3xl">
+          <span class="badge badge-secondary mb-4">
+            Knowledge Hub
+          </span>
+          <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">
+            Insights
+          </h1>
+          <p class="mt-6 text-lg text-gray-200">
+            Articoli e analisi su longevità, previdenza, e pianificazione finanziaria 
+            nel lungo termine per consulenti che vogliono rimanere aggiornati.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="py-12 bg-white border-b">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap gap-3 justify-center">
+          <span class="badge badge-outline cursor-pointer hover:bg-gray-100 px-4 py-2">Tutti</span>
+          <span class="badge badge-longevity cursor-pointer px-4 py-2">Longevity Economics</span>
+          <span class="badge badge-pension cursor-pointer px-4 py-2">Pension Sustainability</span>
+          <span class="badge badge-time cursor-pointer px-4 py-2">Tempo come Variabile</span>
+          <span class="badge badge-decision cursor-pointer px-4 py-2">Decision-making</span>
+          <span class="badge badge-measures cursor-pointer px-4 py-2">Nuove Misure</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Articles Grid -->
+    <section class="py-20 bg-gray-50">
+      <div class="container mx-auto px-4">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Article 1 -->
+          <article class="card border-0 shadow-lg hover:shadow-xl transition-shadow flex flex-col">
+            <div class="card-header">
+              <span class="badge badge-longevity mb-3">Longevity Economics</span>
+              <h3 class="card-title text-xl line-clamp-2">
+                <a href="#" class="hover:text-secondary transition-colors">
+                  L'economia della longevità: un mercato da 15 trilioni
+                </a>
+              </h3>
+              <p class="text-gray-600 line-clamp-3 mt-2">
+                L'aumento dell'aspettativa di vita sta creando un nuovo paradigma economico. Scopri le opportunità e le sfide della silver economy.
+              </p>
+            </div>
+            <div class="card-content mt-auto">
+              <div class="flex items-center justify-between text-sm text-gray-500">
+                <div class="flex items-center gap-4">
+                  <span class="flex items-center gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    8 min
+                  </span>
+                  <span class="flex items-center gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    Fingevity Team
+                  </span>
+                </div>
+                <span>15 Gen 2024</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Article 2 -->
+          <article class="card border-0 shadow-lg hover:shadow-xl transition-shadow flex flex-col">
+            <div class="card-header">
+              <span class="badge badge-pension mb-3">Pension Sustainability</span>
+              <h3 class="card-title text-xl line-clamp-2">
+                <a href="#" class="hover:text-secondary transition-colors">
+                  Il gap previdenziale italiano: numeri e soluzioni
+                </a>
+              </h3>
+              <p class="text-gray-600 line-clamp-3 mt-2">
+                Un'analisi approfondita del divario tra pensione pubblica e integrazione privata in Italia, con proposte concrete.
+              </p>
+            </div>
+            <div class="card-content mt-auto">
+              <div class="flex items-center justify-between text-sm text-gray-500">
+                <div class="flex items-center gap-4">
+                  <span class="flex items-center gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    12 min
+                  </span>
+                  <span class="flex items-center gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    Fingevity Team
+                  </span>
+                </div>
+                <span>10 Gen 2024</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Article 3 -->
+          <article class="card border-0 shadow-lg hover:shadow-xl transition-shadow flex flex-col">
+            <div class="card-header">
+              <span class="badge badge-time mb-3">Tempo come Variabile</span>
+              <h3 class="card-title text-xl line-clamp-2">
+                <a href="#" class="hover:text-secondary transition-colors">
+                  Il tempo non è più quello che era: ripensare il time-value of money
+                </a>
+              </h3>
+              <p class="text-gray-600 line-clamp-3 mt-2">
+                I modelli tradizionali di sconto intertemporale non funzionano più in un mondo di longevità estesa. Ecco perché.
+              </p>
+            </div>
+            <div class="card-content mt-auto">
+              <div class="flex items-center justify-between text-sm text-gray-500">
+                <div class="flex items-center gap-4">
+                  <span class="flex items-center gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    10 min
+                  </span>
+                  <span class="flex items-center gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    Fingevity Team
+                  </span>
+                </div>
+                <span>5 Gen 2024</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Article 4 -->
+          <article class="card border-0 shadow-lg hover:shadow-xl transition-shadow flex flex-col">
+            <div class="card-header">
+              <span class="badge badge-decision mb-3">Decision-making</span>
+              <h3 class="card-title text-xl line-clamp-2">
+                <a href="#" class="hover:text-secondary transition-colors">
+                  Il bias del presente: perché sottovalutiamo il futuro
+                </a>
+              </h3>
+              <p class="text-gray-600 line-clamp-3 mt-2">
+                Come la psicologia comportamentale influenza le decisioni finanziarie e come il consulente può aiutare.
+              </p>
+            </div>
+            <div class="card-content mt-auto">
+              <div class="flex items-center justify-between text-sm text-gray-500">
+                <div class="flex items-center gap-4">
+                  <span class="flex items-center gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    7 min
+                  </span>
+                  <span class="flex items-center gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    Fingevity Team
+                  </span>
+                </div>
+                <span>1 Gen 2024</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Article 5 -->
+          <article class="card border-0 shadow-lg hover:shadow-xl transition-shadow flex flex-col">
+            <div class="card-header">
+              <span class="badge badge-measures mb-3">Nuove Misure</span>
+              <h3 class="card-title text-xl line-clamp-2">
+                <a href="#" class="hover:text-secondary transition-colors">
+                  I limiti dei modelli attuali: cosa non funziona
+                </a>
+              </h3>
+              <p class="text-gray-600 line-clamp-3 mt-2">
+                Un'analisi critica degli strumenti di pianificazione finanziaria tradizionali e perché serve un nuovo approccio.
+              </p>
+            </div>
+            <div class="card-content mt-auto">
+              <div class="flex items-center justify-between text-sm text-gray-500">
+                <div class="flex items-center gap-4">
+                  <span class="flex items-center gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    9 min
+                  </span>
+                  <span class="flex items-center gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    Fingevity Team
+                  </span>
+                </div>
+                <span>28 Dic 2023</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Article 6 -->
+          <article class="card border-0 shadow-lg hover:shadow-xl transition-shadow flex flex-col">
+            <div class="card-header">
+              <span class="badge badge-decision mb-3">Decision-making</span>
+              <h3 class="card-title text-xl line-clamp-2">
+                <a href="#" class="hover:text-secondary transition-colors">
+                  Simulazioni Monte Carlo: vedere il futuro in 10.000 scenari
+                </a>
+              </h3>
+              <p class="text-gray-600 line-clamp-3 mt-2">
+                Una guida pratica alle simulazioni Monte Carlo e come utilizzarle nella consulenza finanziaria.
+              </p>
+            </div>
+            <div class="card-content mt-auto">
+              <div class="flex items-center justify-between text-sm text-gray-500">
+                <div class="flex items-center gap-4">
+                  <span class="flex items-center gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    11 min
+                  </span>
+                  <span class="flex items-center gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    Fingevity Team
+                  </span>
+                </div>
+                <span>20 Dic 2023</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="py-20 bg-primary text-white">
+      <div class="container mx-auto px-4">
+        <div class="max-w-2xl mx-auto text-center">
+          <h2 class="text-3xl font-bold sm:text-4xl mb-4">
+            Longevity Insights
+          </h2>
+          <p class="text-lg text-gray-200 mb-8">
+            Iscriviti alla nostra newsletter mensile per ricevere aggiornamenti 
+            su longevità, previdenza e innovazione nella consulenza finanziaria.
+          </p>
+          <form id="newsletter-form" class="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
+            <input
+              type="email"
+              placeholder="La tua email"
+              required
+              class="flex-1 px-4 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-secondary"
+            >
+            <button type="submit" class="btn btn-secondary">
+              Iscriviti
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </button>
+          </form>
+          <p class="text-sm text-gray-300 mt-4">
+            Nessuno spam. Cancella l'iscrizione quando vuoi.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Footer placeholder -->
+  <div id="footer"></div>
+  
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/form.js"></script>
+</body>
+</html>

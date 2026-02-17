@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fingevity - Strumenti analitici avanzati per consulenti finanziari. La longevità è una variabile, non un'incognita.">
+  <meta name="keywords" content="longevità, consulenza finanziaria, pianificazione, sostenibilità, simulatore, Monte Carlo">
+  <meta name="author" content="Fingevity">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Fingevity - La longevità è una variabile, non un'incognita">
+  <meta property="og:description" content="Strumenti analitici avanzati per consulenti che vogliono pianificare il futuro dei loro clienti considerando ogni scenario di sopravvivenza.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://fingevity.it">
+  <meta property="og:image" content="https://fingevity.it/assets/images/og-image.png">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Fingevity - La longevità è una variabile, non un'incognita">
+  <meta name="twitter:description" content="Strumenti analitici avanzati per consulenti finanziari.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  
+  <title>Fingevity - La longevità è una variabile, non un'incognita</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#1e3a5f',
+            secondary: '#f39c12',
+            accent: '#e74c3c'
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="min-h-screen flex flex-col font-sans">
+  <!-- Header placeholder -->
+  <div id="header"></div>
+  
+  <!-- Main content -->
+  <main class="flex-1">
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-primary to-primary/90 text-white">
+      <div class="container mx-auto px-4 py-24 lg:py-32">
+        <div class="max-w-3xl">
+          <span class="badge badge-secondary mb-4">
+            Consulenza Finanziaria Innovativa
+          </span>
+          <h1 class="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
+            La longevità è una variabile.
+            <span class="block text-secondary">Non un'incognita.</span>
+          </h1>
+          <p class="mt-6 text-lg text-gray-200 max-w-2xl">
+            Strumenti analitici avanzati per consulenti che vogliono pianificare 
+            il futuro dei loro clienti considerando ogni scenario di sopravvivenza.
+          </p>
+          <div class="mt-10 flex flex-col sm:flex-row gap-4">
+            <a href="contatti.html" class="btn btn-secondary btn-lg">
+              Richiedi una Demo
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <a href="prodotti-servizi.html" class="btn btn-outline btn-lg text-white border-white hover:bg-white/10">
+              Scopri il Simulatore
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Decorative element -->
+      <div class="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-white to-transparent"></div>
+    </section>
+
+    <!-- Problem Statement -->
+    <section class="py-20 bg-white">
+      <div class="container mx-auto px-4">
+        <div class="max-w-3xl mx-auto text-center">
+          <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">
+            L'aumento dell'aspettativa di vita sta rendendo obsoleti i modelli previdenziali tradizionali
+          </h2>
+          <p class="mt-6 text-lg text-gray-600">
+            Chi vive più a lungo, rischia di vivere peggio. I modelli attuali non considerano 
+            adeguatamente la variabile sopravvivenza, lasciando consulenti e clienti senza 
+            strumenti efficaci per pianificare il futuro.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Value Proposition -->
+    <section class="py-20 bg-gray-50">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">
+            Perché Fingevity
+          </h2>
+          <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+            Sviluppiamo strumenti e metodologie per rendere sostenibili le decisioni finanziarie 
+            in un mondo che invecchia meglio e più a lungo.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <!-- Feature 1 -->
+          <div class="card border-0 shadow-lg hover:shadow-xl transition-shadow">
+            <div class="card-header">
+              <div class="h-12 w-12 bg-secondary/10 rounded-lg flex items-center justify-center mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-secondary"><rect width="16" height="20" x="4" y="2" rx="2"/><line x1="8" x2="16" y1="6" y2="6"/><line x1="16" x2="16" y1="14" y2="18"/><path d="M16 10h.01"/><path d="M12 10h.01"/><path d="M8 10h.01"/><path d="M12 14h.01"/><path d="M8 14h.01"/><path d="M12 18h.01"/><path d="M8 18h.01"/></svg>
+              </div>
+              <h3 class="card-title">Modelli Matematici</h3>
+            </div>
+            <div class="card-content">
+              <p class="text-gray-600">
+                Modelli proprietari di sostenibilità finanziaria che integrano la variabile sopravvivenza.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature 2 -->
+          <div class="card border-0 shadow-lg hover:shadow-xl transition-shadow">
+            <div class="card-header">
+              <div class="h-12 w-12 bg-secondary/10 rounded-lg flex items-center justify-center mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-secondary"><path d="M3 3v18h18"/><path d="M18 17V9"/><path d="M13 17V5"/><path d="M8 17v-3"/></svg>
+              </div>
+              <h3 class="card-title">Simulazioni Monte Carlo</h3>
+            </div>
+            <div class="card-content">
+              <p class="text-gray-600">
+                Generazione di molteplici scenari probabilistici per una visione ampia e precisa.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature 3 -->
+          <div class="card border-0 shadow-lg hover:shadow-xl transition-shadow">
+            <div class="card-header">
+              <div class="h-12 w-12 bg-secondary/10 rounded-lg flex items-center justify-center mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-secondary"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <h3 class="card-title">Simulatore di Coppia</h3>
+            </div>
+            <div class="card-content">
+              <p class="text-gray-600">
+                L'innovazione che fa la differenza: pianificazione per nuclei familiari.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature 4 -->
+          <div class="card border-0 shadow-lg hover:shadow-xl transition-shadow">
+            <div class="card-header">
+              <div class="h-12 w-12 bg-secondary/10 rounded-lg flex items-center justify-center mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-secondary"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <h3 class="card-title">Orizzonte Temporale Lungo</h3>
+            </div>
+            <div class="card-content">
+              <p class="text-gray-600">
+                Strumenti progettati per decisioni che abbracciano decenni.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Highlight -->
+    <section class="py-20 bg-white">
+      <div class="container mx-auto px-4">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <span class="badge badge-default mb-4">Il Nostro Prodotto</span>
+            <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl mb-6">
+              Fingevity Simulator
+            </h2>
+            <p class="text-lg text-gray-600 mb-6">
+              Un simulatore che analizza la sostenibilità finanziaria a lungo termine 
+              considerando la variabile più importante: la sopravvivenza.
+            </p>
+            
+            <div class="space-y-4 mb-8">
+              <div class="flex items-start gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 text-secondary flex-shrink-0"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span class="text-gray-700">Decisioni basate su dati, non su stime</span>
+              </div>
+              <div class="flex items-start gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 text-secondary flex-shrink-0"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span class="text-gray-700">Visualizzazione di molteplici scenari probabilistici</span>
+              </div>
+              <div class="flex items-start gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 text-secondary flex-shrink-0"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span class="text-gray-700">Pianificazione che tiene conto della reale aspettativa di vita</span>
+              </div>
+              <div class="flex items-start gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 text-secondary flex-shrink-0"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span class="text-gray-700">Report chiari da condividere con il cliente finale</span>
+              </div>
+            </div>
+
+            <div class="bg-accent/10 rounded-lg p-6 mb-8">
+              <h3 class="font-semibold text-primary mb-2">
+                ★ Innovazione: Simulatore di Coppia
+              </h3>
+              <p class="text-gray-600">
+                Il primo simulatore progettato per nuclei familiari. 
+                Perché la longevità si pianifica insieme.
+              </p>
+            </div>
+
+            <a href="prodotti-servizi.html" class="btn btn-primary btn-lg">
+              Scopri di più
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+
+          <div class="bg-gradient-to-br from-primary/5 to-secondary/5 rounded-2xl p-8">
+            <div class="bg-white rounded-xl shadow-xl p-6">
+              <div class="flex items-center justify-between mb-6">
+                <h3 class="font-semibold text-gray-900">Output del Simulatore</h3>
+                <span class="badge badge-secondary">PDF Report</span>
+              </div>
+              <div class="space-y-4">
+                <div class="h-4 bg-gray-100 rounded-full">
+                  <div class="h-4 bg-secondary rounded-full w-3/4"></div>
+                </div>
+                <div class="flex justify-between text-sm">
+                  <span class="text-gray-500">Grado di Sostenibilità</span>
+                  <span class="font-semibold text-secondary">75%</span>
+                </div>
+                <div class="pt-4 border-t">
+                  <div class="grid grid-cols-3 gap-4 text-center">
+                    <div>
+                      <div class="text-2xl font-bold text-primary">10K+</div>
+                      <div class="text-xs text-gray-500">Scenari</div>
+                    </div>
+                    <div>
+                      <div class="text-2xl font-bold text-primary">30+</div>
+                      <div class="text-xs text-gray-500">Anni</div>
+                    </div>
+                    <div>
+                      <div class="text-2xl font-bold text-primary">2</div>
+                      <div class="text-xs text-gray-500">Partner</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Three Pillars -->
+    <section class="py-20 bg-primary text-white">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl font-bold sm:text-4xl">
+            I Tre Pilastri Fingevity
+          </h2>
+          <p class="mt-4 text-lg text-gray-200 max-w-2xl mx-auto">
+            Un approccio completo per affrontare le sfide della longevità
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Pillar 1: Ricerca -->
+          <div class="text-center p-8 rounded-xl bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-colors">
+            <div class="h-16 w-16 bg-secondary/20 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-secondary"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+            </div>
+            <h3 class="text-xl font-semibold mb-4">Ricerca</h3>
+            <p class="text-gray-200">Nuove metriche per misurare la longevità e il suo impatto economico.</p>
+          </div>
+
+          <!-- Pillar 2: Consulenza -->
+          <div class="text-center p-8 rounded-xl bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-colors">
+            <div class="h-16 w-16 bg-secondary/20 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-secondary"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg>
+            </div>
+            <h3 class="text-xl font-semibold mb-4">Consulenza</h3>
+            <p class="text-gray-200">Strategie personalizzate per il lungo termine basate sui nostri modelli.</p>
+          </div>
+
+          <!-- Pillar 3: Formazione -->
+          <div class="text-center p-8 rounded-xl bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-colors">
+            <div class="h-16 w-16 bg-secondary/20 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-secondary"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            </div>
+            <h3 class="text-xl font-semibold mb-4">Formazione</h3>
+            <p class="text-gray-200">Conoscenza per decisioni consapevoli e consulenza di valore.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-white">
+      <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto text-center">
+          <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl mb-6">
+            Pianifica il tuo futuro.
+            <span class="text-secondary">Tutto il futuro.</span>
+          </h2>
+          <p class="text-lg text-gray-600 mb-10">
+            Inizia oggi a utilizzare strumenti che considerano ogni scenario di longevità 
+            per una consulenza finanziaria davvero sostenibile.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="contatti.html" class="btn btn-primary btn-lg">
+              Richiedi una Demo
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <a href="insights.html" class="btn btn-outline btn-lg">
+              Leggi i nostri Insights
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Footer placeholder -->
+  <div id="footer"></div>
+  
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>

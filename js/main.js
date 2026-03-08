@@ -22,11 +22,11 @@ const headerHTML = `
       <!-- Desktop Navigation -->
       <div class="hidden lg:flex lg:items-center lg:space-x-6">
         <a href="cosa-facciamo.html" class="nav-link" data-page="cosa-facciamo.html">Cosa Facciamo</a>
-        <a href="prodotti-servizi.html" class="nav-link" data-page="prodotti-servizi.html">Prodotti e Servizi</a>
-        <a href="pubblicazioni.html" class="nav-link" data-page="pubblicazioni.html">Pubblicazioni</a>
+        <a href="chi-siamo.html" class="nav-link" data-page="chi-siamo.html">Chi Siamo</a>
+        <a href="metriche.html" class="nav-link" data-page="metriche.html">Metriche</a>
+        <a href="prodotti-servizi.html" class="nav-link" data-page="prodotti-servizi.html">Prodotti</a>
         <a href="insights.html" class="nav-link" data-page="insights.html">Insights</a>
         <a href="formazione.html" class="nav-link" data-page="formazione.html">Formazione</a>
-        <a href="partnership.html" class="nav-link" data-page="partnership.html">Partnership</a>
         <a href="contatti.html" class="nav-link" data-page="contatti.html">Contatti</a>
       </div>
 
@@ -58,11 +58,11 @@ const headerHTML = `
     <div id="mobile-menu" class="lg:hidden hidden transition-all duration-300 ease-in-out">
       <div class="container mx-auto px-4 py-4 space-y-2 bg-white border-t">
         <a href="cosa-facciamo.html" class="block py-2 text-base font-medium text-gray-700 hover:text-primary mobile-nav-link" data-page="cosa-facciamo.html">Cosa Facciamo</a>
-        <a href="prodotti-servizi.html" class="block py-2 text-base font-medium text-gray-700 hover:text-primary mobile-nav-link" data-page="prodotti-servizi.html">Prodotti e Servizi</a>
-        <a href="pubblicazioni.html" class="block py-2 text-base font-medium text-gray-700 hover:text-primary mobile-nav-link" data-page="pubblicazioni.html">Pubblicazioni</a>
+        <a href="chi-siamo.html" class="block py-2 text-base font-medium text-gray-700 hover:text-primary mobile-nav-link" data-page="chi-siamo.html">Chi Siamo</a>
+        <a href="metriche.html" class="block py-2 text-base font-medium text-gray-700 hover:text-primary mobile-nav-link" data-page="metriche.html">Metriche</a>
+        <a href="prodotti-servizi.html" class="block py-2 text-base font-medium text-gray-700 hover:text-primary mobile-nav-link" data-page="prodotti-servizi.html">Prodotti</a>
         <a href="insights.html" class="block py-2 text-base font-medium text-gray-700 hover:text-primary mobile-nav-link" data-page="insights.html">Insights</a>
         <a href="formazione.html" class="block py-2 text-base font-medium text-gray-700 hover:text-primary mobile-nav-link" data-page="formazione.html">Formazione</a>
-        <a href="partnership.html" class="block py-2 text-base font-medium text-gray-700 hover:text-primary mobile-nav-link" data-page="partnership.html">Partnership</a>
         <a href="contatti.html" class="block py-2 text-base font-medium text-gray-700 hover:text-primary mobile-nav-link" data-page="contatti.html">Contatti</a>
         <div class="pt-4">
           <a href="contatti.html" class="btn btn-primary w-full text-center block">Richiedi Demo</a>
